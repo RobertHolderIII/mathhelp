@@ -1,0 +1,46 @@
+° degree
+∞ infinity
+
+⁻¹²³⁴⁵⁶⁷⁸⁹⁰ powers
+ʳᵗˣⁿ⁻⁺
+ᵃᵇᶜᵈᵉᶠᵍʰʲᵏˡᵐⁿᵒᵖʳˢᵗᵘᵛʷˣʸᶻ
+√ root
+ pi
+θ theta
+
+≈ approximately
+≠ inequality
+Σ sum
+∫ integral
+
+± plus or minus
+→∞ approaches
+⁻
+⁺
+l'Hôpital
+
+≥ greater than or equal to
+≤ less than or equal to
+
+¬ not
+∧ and
+∨ or
+⇒→ implies
+↔ ⇔ equivalent
+∴ therefore
+⋂ intersection
+⋃ union
+
+∀ for all
+∃ there exists
+∄ there does not exist
+
+∈ is in
+∉ is not in
+⊄ not subset
+⊂ subset
+
+ℤ integers
+ℝ reals
+
+∠ angle
