@@ -5,8 +5,9 @@
 ʳᵗˣⁿ⁻⁺
 ᵃᵇᶜᵈᵉᶠᵍʰʲᵏˡᵐⁿᵒᵖʳˢᵗᵘᵛʷˣʸᶻ
 √ root
- pi
+π pi
 θ theta
+ϕφ phi
 
 ≈ approximately
 ≠ inequality
