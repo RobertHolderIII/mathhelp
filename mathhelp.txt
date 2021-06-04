@@ -7,7 +7,6 @@
 √ root
 π pi
 θ theta
-ϕφ phi
 
 ≈ approximately
 ≠ inequality
@@ -28,6 +27,7 @@ l'Hôpital
 ∨ or
 ⇒→ implies
 ↔ ⇔ equivalent
+≡
 ∴ therefore
 ⋂ intersection
 ⋃ union
@@ -45,3 +45,10 @@ l'Hôpital
 ℝ reals
 
 ∠ angle
+◜HJ◝ arc
+
+μ mu
+σ sigma
+∂ delta, partial diff
+α alpha
+
