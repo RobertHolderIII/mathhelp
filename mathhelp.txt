@@ -28,6 +28,7 @@ l'Hôpital
 ⇒→ implies
 ↔ ⇔ equivalent
 ≡
+≅ congruent
 ∴ therefore
 ⋂ intersection
 ⋃ union
