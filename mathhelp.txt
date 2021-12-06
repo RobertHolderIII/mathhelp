@@ -44,6 +44,8 @@ l'Hôpital
 
 ℤ integers
 ℝ reals
+ℚQ rationals
+ℕ naturals
 
 ∠ angle
 ◜HJ◝ arc
