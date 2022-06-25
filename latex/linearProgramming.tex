@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage[fleqn]{amsmath} % gather,gather*,bmatrix
+\usepackage{mathtools} % multilined
+\begin{document}
+
+This can be construed as a linear programming problem.  Let a, b, c, and d be the hours allotted to factories A, B, C, and D.
+\\
+\\
+Minimize:
+\begin{equation*}
+\begin{aligned}
+a + b + c + d
+\end{aligned}
+\end{equation*}
+
+subject to:
+\begin{equation*}
+\begin{aligned}
+10a + 10b + 10c + 10d \geq 3000\\
+10a + 20b + 20d \geq 5000\\
+20a + 40c + 40d \geq 6000\\
+a, b, c, d \geq 0\\
+\end{aligned}
+\end{equation*}
+
+We convert this to standard form by adding surplus variables $s_i$:
+\\
+\\
+Minimize:
+\begin{equation*}
+\begin{aligned}
+a + b + c + d
+\end{aligned}
+\end{equation*}
+
+subject to:
+\begin{equation*}
+\begin{aligned}
+10a + 10b + 10c + 10d - s_1 = 3000\\
+10a + 20b + 20d - s_2 = 5000\\
+20a + 40c + 40d - s_3 = 6000\\
+a, b, c, d \geq 0\\
+s_1, s_2, s_3 \geq 0\\
+\end{aligned}
+\end{equation*}
+
+To use the simplex method, create the initial tableau.
+Note we will maximize the negation of the original objection function:
+\begin{equation*}
+\begin{aligned}
+Z = -(a + b + c + d)\\
+Z + a + b + c + d = 0
+\end{aligned}
+\end{equation*}
+
+\[
+	\begin{bmatrix}
+	a & b & c & d & s_1 & s_2 & s_3 & Z\\
+	10 & 10 & 10 & 10 & -1 &  0 & 0  & 0 & 3000\\
+	10 & 20 & 0  & 20 &  0 & -1 & 0  & 0 & 5000\\
+	20 &  0 & 40 & 40 &  0 &  0 & -1 & 0 & 6000\\
+	1  &  1 &  1 &  1 &  0 &  0 & 0  & 1 & 0
+	\end{bmatrix}
+\]
+
+
+I'm too lazy to actually run the algorithm, so I put it into a solver.  The results are here:  https://tinyurl.com/wb7x3wb2
+
+Looks like my solution to run factory D for 300 hours is as good as their solution to run B for 150, C for 50, and D for 100.  However, the products will be done in 150 hours since the factories may run in parallel.
+
+
+
+\end{document}
