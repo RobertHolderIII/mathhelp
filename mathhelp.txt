@@ -4,7 +4,8 @@
 ⁻¹²³⁴⁵⁶⁷⁸⁹⁰ powers
 ʳᵗˣⁿ⁻⁺
 ᵃᵇᶜᵈᵉᶠᵍʰʲᵏˡᵐⁿᵒᵖʳˢᵗᵘᵛʷˣʸᶻ
-√ root
+√√ root
+³√ cube root
 π pi
 θ theta
 
@@ -33,6 +34,8 @@ l'Hôpital
 ⋂ intersection
 ⋃ union
 
+∅ null
+
 ∀ for all
 ∃ there exists
 ∄ there does not exist
@@ -46,6 +49,7 @@ l'Hôpital
 ℝ reals
 ℚQ rationals
 ℕ naturals
+ℂ complex
 
 ∠ angle
 ◜HJ◝ arc
